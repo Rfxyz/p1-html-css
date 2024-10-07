@@ -38,6 +38,44 @@ nav img {
   width: 5vw;
 }
 
-body { 
-  
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 70%;
+  color: azure;
+  font-size: 60px;
+  text-align: center;
+  font-size: 600%;
+}
+
+h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 80%;
+  color: azure;
+  font-size: 600%;
+}
+
+nav img{
+  width: 5vw;
+}
+
+.img_background{
+width: 100%;
+}
+
+.textContainer {
+  position: absolute;
+  width: 300px;
+  right: 10%;
+  top: 40%;
+  font-size: 15px;
+
+}
+
+.jva {
+  color: black;
+  font-size: 30px;
 }
