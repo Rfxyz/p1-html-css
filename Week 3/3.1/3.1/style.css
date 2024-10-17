@@ -42,8 +42,8 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translate(-50%,-50%);
-  top: 70%;
-  color: azure;
+  top: 65%;
+  color: white;
   font-size: 60px;
   text-align: center;
   font-size: 600%;
@@ -79,3 +79,83 @@ width: 100%;
   color: black;
   font-size: 30px;
 }
+
+.php1 {
+  color: black;
+  top: 30%;
+
+}
+
+.pphp1 {
+  position: absolute;
+  width: 400px;
+  right: 10%;
+  top: 40%;
+  font-size: 15px;
+}
+
+.pphp2 {
+  position: absolute;
+  width: 400px;
+  right: 10%;
+  top: 55%;
+  font-size: 15px;
+}
+
+.phpimg1 {
+ top: 35%;
+ position: absolute; 
+
+}
+
+.javah1 {
+  color: white;
+  font-size: 65px;
+  top: 30%;
+}
+
+.javah2 {
+color: white;
+font-size: 35px;
+top: 48%;
+left: 15%;
+}
+
+.javah3{
+font-size: 35px;
+color: yellow;
+top: 48%;
+left: 25%;
+}
+
+.javahp1{
+  color: white;
+}
+
+.js-container {
+  background-color: black;
+  height: 100vh;
+}
+
+
+.phph2{
+font-size: 30px;
+color: black;
+top: 40%;
+left: 30%;
+
+}
+.pph2{
+  color: black;
+  top: 38%;
+  font-size: 30px;
+  left: 72%;
+}
+
+
+
+
+
+
+
+
