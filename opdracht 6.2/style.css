@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;       
+    max-width: 1200px;            
+    margin: 0 auto;              
+    gap: 100px;                    
+    padding: 20px;           
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;                
+    font-size: 24px;
+    font-weight: bold;      
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}

@@ -68,43 +68,56 @@ width: 100%;
 
 .textContainer {
   position: absolute;
-  width: 300px;
+  width: 629px;
   right: 10%;
   top: 40%;
-  font-size: 15px;
+  font-size: 22px;
+  font-style: monospace;
 
 }
 
-.jva {
+.html1 {
   color: black;
-  font-size: 30px;
+  font-size: 60px;
+top: 25%;
+}
+.htmlimg {
+  /* position: absolute;
+  top: 35%; */
+  margin-top: 20vh;
+  margin-left: 10vh;
+  width: 600px;
+
 }
 
 .php1 {
   color: black;
-  top: 30%;
+  top: 25%;
 
 }
 
 .pphp1 {
   position: absolute;
-  width: 400px;
+  width: 629px;
   right: 10%;
   top: 40%;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .pphp2 {
   position: absolute;
-  width: 400px;
+  width: 629px;
   right: 10%;
   top: 55%;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .phpimg1 {
  top: 35%;
  position: absolute; 
+ width: 500px;
+ left: 15%;
+ top: 40%;
 
 }
 
@@ -130,11 +143,16 @@ left: 25%;
 
 .javahp1{
   color: white;
+  width: 700px;
+  font-size: 22px;
+  margin-left: 10vh;
+  top: 70%;
 }
 
-.js-container {
-  background-color: black;
-  height: 100vh;
+.img-js {
+  width: 313px;
+  margin-top: 30vh;
+ margin-left: 120vh;
 }
 
 
@@ -149,13 +167,90 @@ left: 30%;
   color: black;
   top: 38%;
   font-size: 30px;
-  left: 72%;
+  left: 62%;
+}
+
+.htmlh2{
+  color: black;
+  top: 40%;
+  font-size: 30px;
+  left: 65%;
+  top: 38%;
+}
+
+.sqlh1 {
+  top: 25%;
+  size: 60px;
+}
+
+.sqlh21{
+  color: white;
+font-size: 30px;
+left: 10%;
+top: 38%;
+}
+
+.sqlh22{
+  color: orange;
+  font-size: 30px;
+  top: 30%;
+  left: 15%;
+  top: 38%;
+}
+.sqlh23 {
+  color: white;
+  font-size: 30px;
+  top: 30%;
+  left: 18%;
+  top: 38%;
+}
+
+.sqlp1 {
+  color: white;
+  position: absolute;
+  width: 629px;
+  left: 7%;
+  top: 40%;
+  font-size: 22px;
+}
+
+.sqlimg{
+  width: 500px;
+ margin-top: 30vh;
+margin-left: 120vh;
+}
+
+
+/* JAVASCRIPT */
+
+.javascript{
+  background-color:black;
 }
 
 
 
 
+.highLightJava{
+  color:yellow;
 
+}
+
+/* -------------------- */
+
+.section-split {
+  margin-top: 20px;
+}
+
+
+footer{
+  color: #00a8c7;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
 
 
 
