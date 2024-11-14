@@ -50,9 +50,9 @@ h1 {
 }
 
 h2 {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  /* position: absolute; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
   top: 80%;
   color: azure;
   font-size: 600%;
@@ -73,7 +73,6 @@ width: 100%;
   top: 40%;
   font-size: 22px;
   font-style: monospace;
-
 }
 
 .html1 {
@@ -90,36 +89,7 @@ top: 25%;
 
 }
 
-.php1 {
-  color: black;
-  top: 25%;
 
-}
-
-.pphp1 {
-  position: absolute;
-  width: 629px;
-  right: 10%;
-  top: 40%;
-  font-size: 22px;
-}
-
-.pphp2 {
-  position: absolute;
-  width: 629px;
-  right: 10%;
-  top: 55%;
-  font-size: 22px;
-}
-
-.phpimg1 {
- top: 35%;
- position: absolute; 
- width: 500px;
- left: 15%;
- top: 40%;
-
-}
 
 .javah1 {
   color: white;
@@ -156,19 +126,64 @@ left: 25%;
 }
 
 
+/* PHP */
+
+.phpcontainer {
+  /* background-color: #000000; */
+  width: 20vw;
+  height: 10vw;
+  float: right;
+  margin-right: 20vw;
+  margin-top: 23vh;
+}
+
 .phph2{
 font-size: 30px;
 color: black;
 top: 40%;
-left: 30%;
+/* left: 30%; */
 
 }
+
 .pph2{
   color: black;
   top: 38%;
   font-size: 30px;
-  left: 62%;
+
 }
+
+
+.php1 {
+  color: black;
+  top: 25%;
+
+}
+
+.pphp1 {
+  /* position: absolute; */
+  width: 629px;
+  right: 10%;
+  top: 40%;
+  font-size: 22px;
+}
+
+.pphp2 {
+  /* position: absolute; */
+  width: 629px;
+  /* right: 10%; */
+  top: 55%;
+  font-size: 22px;
+}
+
+.phpimg1 {
+ top: 35%;
+float: left; 
+margin-left: 8vw;
+ width: 500px;
+ margin-top: 27vh;
+
+}
+
 
 .htmlh2{
   color: black;
@@ -189,6 +204,7 @@ font-size: 30px;
 left: 10%;
 top: 38%;
 }
+
 
 .sqlh22{
   color: orange;
@@ -253,4 +269,82 @@ footer{
 }
 
 
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 23px;
+  border: none;
+  font-family: "Goldman", cursive;
+}
+ 
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ 
+.dropdown-content a:hover {background-color: #ddd;}
+ 
+.dropdown:hover .dropdown-content {display: block;}
+ 
+.dropdown:hover .dropbtn {background-color: #04a30a;}
+ 
+.dropbtn1 {
+  background-color: #00a8c7;
+  color: white;
+  padding: 18px;
+  font-size: 23px;
+  border: none;
+  font-family: "Goldman", cursive;
+}
+ 
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E9E9E9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ 
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ 
+.dropdown-content a:hover {background-color: #ddd;}
+ 
+.dropdown:hover .dropdown-content {display: block;}
+ 
+.dropdown:hover .dropbtn {background-color: #00a8c7;}
+
+.cnth1 {
+  color: #000000;
+ top: 25%;
+}
 
